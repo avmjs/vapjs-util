@@ -3,11 +3,11 @@
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
-		define("ethUtil", [], factory);
+		define("vapUtil", [], factory);
 	else if(typeof exports === 'object')
-		exports["ethUtil"] = factory();
+		exports["vapUtil"] = factory();
 	else
-		root["ethUtil"] = factory();
+		root["vapUtil"] = factory();
 })(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -1921,7 +1921,7 @@ function padToEven(value) {
   var a = value; // eslint-disable-line
 
   if (typeof a !== 'string') {
-    throw new Error('[ethjs-util] while padding to even, value must be string, is currently ' + typeof a + ', while padToEven.');
+    throw new Error('[vapjs-util] while padding to even, value must be string, is currently ' + typeof a + ', while padToEven.');
   }
 
   if (a.length % 2) {
@@ -1960,7 +1960,7 @@ function intToBuffer(i) {
  */
 function getBinarySize(str) {
   if (typeof str !== 'string') {
-    throw new Error('[ethjs-util] while getting binary size, method getBinarySize requires input \'str\' to be type String, got \'' + typeof str + '\'.');
+    throw new Error('[vapjs-util] while getting binary size, method getBinarySize requires input \'str\' to be type String, got \'' + typeof str + '\'.');
   }
 
   return Buffer.byteLength(str, 'utf8');
@@ -1977,10 +1977,10 @@ function getBinarySize(str) {
  */
 function arrayContainsArray(superset, subset, some) {
   if (Array.isArray(superset) !== true) {
-    throw new Error('[ethjs-util] method arrayContainsArray requires input \'superset\' to be an array got type \'' + typeof superset + '\'');
+    throw new Error('[vapjs-util] method arrayContainsArray requires input \'superset\' to be an array got type \'' + typeof superset + '\'');
   }
   if (Array.isArray(subset) !== true) {
-    throw new Error('[ethjs-util] method arrayContainsArray requires input \'subset\' to be an array got type \'' + typeof subset + '\'');
+    throw new Error('[vapjs-util] method arrayContainsArray requires input \'subset\' to be an array got type \'' + typeof subset + '\'');
   }
 
   return subset[Boolean(some) && 'some' || 'every'](function (value) {
@@ -2070,10 +2070,10 @@ function fromAscii(stringValue) {
  */
 function getKeys(params, key, allowEmpty) {
   if (!Array.isArray(params)) {
-    throw new Error('[ethjs-util] method getKeys expecting type Array as \'params\' input, got \'' + typeof params + '\'');
+    throw new Error('[vapjs-util] method getKeys expecting type Array as \'params\' input, got \'' + typeof params + '\'');
   }
   if (typeof key !== 'string') {
-    throw new Error('[ethjs-util] method getKeys expecting type String for input \'key\' got \'' + typeof key + '\'.');
+    throw new Error('[vapjs-util] method getKeys expecting type String for input \'key\' got \'' + typeof key + '\'.');
   }
 
   var result = []; // eslint-disable-line
@@ -2417,4 +2417,4 @@ module.exports = g;
 /******/ ])
 });
 ;
-//# sourceMappingURL=ethjs-util.js.map
+//# sourceMappingURL=vapjs-util.js.map

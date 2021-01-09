@@ -1,16 +1,16 @@
 {
-  "_from": "ethjs-util",
-  "_id": "ethjs-util@0.1.4",
+  "_from": "vapjs-util",
+  "_id": "vapjs-util@0.1.4",
   "_inBundle": false,
   "_integrity": "sha1-HItoeSV0RO9NPz+7rC3tEs2ZfZM=",
-  "_location": "/ethjs-util",
+  "_location": "/vapjs-util",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "ethjs-util",
-    "name": "ethjs-util",
-    "escapedName": "ethjs-util",
+    "raw": "vapjs-util",
+    "name": "vapjs-util",
+    "escapedName": "vapjs-util",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -19,9 +19,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/ethjs-util/-/ethjs-util-0.1.4.tgz",
+  "_resolved": "https://registry.npmjs.org/vapjs-util/-/vapjs-util-0.1.4.tgz",
   "_shasum": "1c8b6879257444ef4d3f3fbbac2ded12cd997d93",
-  "_spec": "ethjs-util",
+  "_spec": "vapjs-util",
   "_where": "/home/nick",
   "authors": [
     "Nick Dodson <nick.dodson@consensys.net>"
@@ -93,7 +93,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/ethjs/ethjs-util/issues"
+    "url": "https://github.com/vapjs/vapjs-util/issues"
   },
   "bundleDependencies": false,
   "contributors": [
@@ -108,7 +108,7 @@
     "strip-hex-prefix": "1.0.0"
   },
   "deprecated": false,
-  "description": "A simple set of Ethereum JS utilties.",
+  "description": "A simple set of Vapory JS utilties.",
   "devDependencies": {
     "babel-cli": "6.18.0",
     "babel-core": "6.18.2",
@@ -203,13 +203,13 @@
     "lib",
     "src"
   ],
-  "homepage": "https://github.com/ethjs/ethjs-util#readme",
+  "homepage": "https://github.com/vapjs/vapjs-util#readme",
   "keywords": [
-    "ethereum",
+    "vapory",
     "rpc",
     "formatter",
     "format",
-    "ethereum",
+    "vapory",
     "encoding",
     "decoding"
   ],
@@ -218,11 +218,12 @@
     "lint:eslint": "*.js"
   },
   "main": "lib/index.js",
-  "name": "ethjs-util",
+  "name": "vapjs-util",
+  "namespace": "vapjs",
   "pre-commit": "build",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ethjs/ethjs-util.git"
+    "url": "git+ssh://git@github.com/vapjs/vapjs-util.git"
   },
   "scripts": {
     "build": "npm run build:commonjs && npm run test:lib && npm run build:umd && npm run build:umd:min",

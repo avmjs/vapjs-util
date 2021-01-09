@@ -1,32 +1,32 @@
-## ethjs-util
+## vapjs-util
 
 <div>
   <!-- Dependency Status -->
-  <a href="https://david-dm.org/ethjs/ethjs-util">
-    <img src="https://david-dm.org/ethjs/ethjs-util.svg"
+  <a href="https://david-dm.org/vapjs/vapjs-util">
+    <img src="https://david-dm.org/vapjs/vapjs-util.svg"
     alt="Dependency Status" />
   </a>
 
   <!-- devDependency Status -->
-  <a href="https://david-dm.org/ethjs/ethjs-util#info=devDependencies">
-    <img src="https://david-dm.org/ethjs/ethjs-util/dev-status.svg" alt="devDependency Status" />
+  <a href="https://david-dm.org/vapjs/vapjs-util#info=devDependencies">
+    <img src="https://david-dm.org/vapjs/vapjs-util/dev-status.svg" alt="devDependency Status" />
   </a>
 
   <!-- Build Status -->
-  <a href="https://travis-ci.org/ethjs/ethjs-util">
-    <img src="https://travis-ci.org/ethjs/ethjs-util.svg"
+  <a href="https://travis-ci.org/vapjs/vapjs-util">
+    <img src="https://travis-ci.org/vapjs/vapjs-util.svg"
     alt="Build Status" />
   </a>
 
   <!-- NPM Version -->
-  <a href="https://www.npmjs.org/package/ethjs-util">
-    <img src="http://img.shields.io/npm/v/ethjs-util.svg"
+  <a href="https://www.npmjs.org/package/vapjs-util">
+    <img src="http://img.shields.io/npm/v/vapjs-util.svg"
     alt="NPM version" />
   </a>
 
   <!-- Test Coverage -->
-  <a href="https://coveralls.io/r/ethjs/ethjs-util">
-    <img src="https://coveralls.io/repos/github/ethjs/ethjs-util/badge.svg" alt="Test Coverage" />
+  <a href="https://coveralls.io/r/vapjs/vapjs-util">
+    <img src="https://coveralls.io/repos/github/vapjs/vapjs-util/badge.svg" alt="Test Coverage" />
   </a>
 
   <!-- Javascript Style -->
@@ -37,18 +37,18 @@
 
 <br />
 
-A simple set of Ethereum JS utilities such as `toBuffer` and `isHexPrefixed`.
+A simple set of Vapory JS utilities such as `toBuffer` and `isHexPrefixed`.
 
 ## Install
 
 ```
-npm install --save ethjs-util
+npm install --save vapjs-util
 ```
 
 ## Usage
 
 ```js
-const util = require('ethjs-util');
+const util = require('vapjs-util');
 
 const value = util.intToBuffer(38272);
 
@@ -57,7 +57,7 @@ const value = util.intToBuffer(38272);
 
 ## About
 
-A simple set of Ethereum JS utilties, mainly for frontend dApps.
+A simple set of Vapory JS utilties, mainly for frontend dApps.
 
 ## Available Methods
 
@@ -87,32 +87,32 @@ Please help better the ecosystem by submitting issues and pull requests to defau
 
 ## Guides
 
-You'll find more detailed information on using `ethjs-util` and tailoring it to your needs in our guides:
+You'll find more detailed information on using `vapjs-util` and tailoring it to your needs in our guides:
 
 - [User guide](docs/user-guide.md) - Usage, configuration, FAQ and complementary tools.
-- [Developer guide](docs/developer-guide.md) - Contributing to `ethjs-util` and writing your own code and coverage.
+- [Developer guide](docs/developer-guide.md) - Contributing to `vapjs-util` and writing your own code and coverage.
 
 ## Help out
 
 There is always a lot of work to do, and will have many rules to maintain. So please help out in any way that you can:
 
-- Create, enhance, and debug ethjs rules (see our guide to ["Working on rules"](./github/CONTRIBUTING.md)).
+- Create, enhance, and debug vapjs rules (see our guide to ["Working on rules"](./github/CONTRIBUTING.md)).
 - Improve documentation.
 - Chime in on any open issue or pull request.
-- Open new issues about your ideas for making `ethjs-util` better, and pull requests to show us how your idea works.
+- Open new issues about your ideas for making `vapjs-util` better, and pull requests to show us how your idea works.
 - Add new tests to *absolutely anything*.
 - Create or contribute to ecosystem tools, like modules for encoding or contracts.
 - Spread the word.
 
 Please consult our [Code of Conduct](CODE_OF_CONDUCT.md) docs before helping out.
 
-We communicate via [issues](https://github.com/ethjs/ethjs-util/issues) and [pull requests](https://github.com/ethjs/ethjs-util/pulls).
+We communicate via [issues](https://github.com/vapjs/vapjs-util/issues) and [pull requests](https://github.com/vapjs/vapjs-util/pulls).
 
 ## Important documents
 
 - [Changelog](CHANGELOG.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
-- [License](https://raw.githubusercontent.com/ethjs/ethjs-util/master/LICENSE)
+- [License](https://raw.githubusercontent.com/vapjs/vapjs-util/master/LICENSE)
 
 ## Licence
 

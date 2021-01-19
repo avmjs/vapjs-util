@@ -1,7 +1,8 @@
 {
-  "name": "ethjs-util",
+  "name": "vapjs-util",
+  "namespace": "vapjs",
   "version": "0.0.1",
-  "description": "A simple set of Ethereum JS utilties.",
+  "description": "A simple set of Vapory JS utilties.",
   "main": "./src/index.js",
   "scripts": {
     "start": "npm test",
@@ -16,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/silentcicero/ethjs-format.git"
+    "url": "git+ssh://git@github.com/vapjs/vapjs-format.git"
   },
   "keywords": [
-    "ethereum",
+    "vapory",
     "rpc",
     "formatter",
     "format",
-    "ethereum",
+    "vapory",
     "encoding",
     "decoding"
   ],
@@ -36,9 +37,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/silentcicero/ethjs-format/issues"
+    "url": "https://github.com/vapjs/vapjs-format/issues"
   },
-  "homepage": "https://github.com/silentcicero/ethjs-format#readme",
+  "homepage": "https://github.com/vapjs/vapjs-format#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.1.2",

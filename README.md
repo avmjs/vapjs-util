@@ -1,26 +1,26 @@
-## ethjs-util
+## vapjs-util
 
 <div>
   <!-- Dependency Status -->
-  <a href="https://david-dm.org/SilentCicero/ethjs-util">
-    <img src="https://david-dm.org/SilentCicero/ethjs-util.svg"
+  <a href="https://david-dm.org/SilentCicero/vapjs-util">
+    <img src="https://david-dm.org/SilentCicero/vapjs-util.svg"
     alt="Dependency Status" />
   </a>
 
   <!-- devDependency Status -->
-  <a href="https://david-dm.org/SilentCicero/ethjs-util#info=devDependencies">
-    <img src="https://david-dm.org/SilentCicero/ethjs-util/dev-status.svg" alt="devDependency Status" />
+  <a href="https://david-dm.org/SilentCicero/vapjs-util#info=devDependencies">
+    <img src="https://david-dm.org/SilentCicero/vapjs-util/dev-status.svg" alt="devDependency Status" />
   </a>
 
   <!-- Build Status -->
-  <a href="https://travis-ci.org/SilentCicero/ethjs-util">
-    <img src="https://travis-ci.org/SilentCicero/ethjs-util.svg"
+  <a href="https://travis-ci.org/SilentCicero/vapjs-util">
+    <img src="https://travis-ci.org/SilentCicero/vapjs-util.svg"
     alt="Build Status" />
   </a>
 
   <!-- NPM Version -->
-  <a href="https://www.npmjs.org/package/ethjs-util">
-    <img src="http://img.shields.io/npm/v/ethjs-util.svg"
+  <a href="https://www.npmjs.org/package/vapjs-util">
+    <img src="http://img.shields.io/npm/v/vapjs-util.svg"
     alt="NPM version" />
   </a>
 
@@ -32,23 +32,23 @@
 
 <br />
 
-A simple set of Ethereum JS utilities such as `toBuffer`.
+A simple set of Vapory JS utilities such as `toBuffer`.
 
 ## Install
 
 ```
-npm install --save ethjs-util
+npm install --save vapjs-util
 ```
 
 ## Usage
 
 ```js
-const format = require('ethjs-util');
+const format = require('vapjs-util');
 ```
 
 ## About
 
-A simple set of Ethereum JS utilties, mainly for frontend dApps.
+A simple set of Vapory JS utilties, mainly for frontend dApps.
 
 ## Available Methods
 
@@ -66,7 +66,7 @@ intToHex
 
 ## Contributing
 
-Please help better the ecosystem by submitting issues and pull requests to default. We need all the help we can get to build the absolute best linting standards and utilities. We follow the AirBigNumberB linting standard. Please read more about contributing to `ethjs-util` in the `CONTRIBUTING.md`.
+Please help better the ecosystem by submitting issues and pull requests to default. We need all the help we can get to build the absolute best linting standards and utilities. We follow the AirBigNumberB linting standard. Please read more about contributing to `vapjs-util` in the `CONTRIBUTING.md`.
 
 <!--
 ## Guides
@@ -91,13 +91,13 @@ There is always a lot of work to do, and will have many rules to maintain. So pl
 
 Please consult our [Code of Conduct](CODE_OF_CONDUCT.md) docs before helping out.
 
-We communicate via [issues](https://github.com/SilentCicero/ethjs-util/issues) and [pull requests](https://github.com/SilentCicero/ethjs-util/pulls).
+We communicate via [issues](https://github.com/SilentCicero/vapjs-util/issues) and [pull requests](https://github.com/SilentCicero/vapjs-util/pulls).
 
 ## Important documents
 
 - [Changelog](CHANGELOG.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
-- [License](https://raw.githubusercontent.com/SilentCicero/ethjs-util/master/LICENSE)
+- [License](https://raw.githubusercontent.com/SilentCicero/vapjs-util/master/LICENSE)
 
 ## Licence
 

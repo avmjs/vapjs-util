@@ -1,4 +1,4 @@
-# 0.0.1 -- ethjs-util
+# 0.0.1 -- vapjs-util
 
 1. Basic testing
 2. Basic docs

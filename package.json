@@ -1,9 +1,10 @@
 {
-  "name": "ethjs-util",
+  "name": "vapjs-util",
+  "namespace": "vapjs",
   "version": "0.1.1",
-  "description": "A simple set of Ethereum JS utilties.",
+  "description": "A simple set of Vapory JS utilties.",
   "main": "lib/index.js",
-  "browser": "dist/ethjs-util.js",
+  "browser": "dist/vapjs-util.js",
   "files": [
     "dist",
     "internals",
@@ -33,14 +34,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ethjs/ethjs-util.git"
+    "url": "git+ssh://git@github.com/vapjs/vapjs-util.git"
   },
   "keywords": [
-    "ethereum",
+    "vapory",
     "rpc",
     "formatter",
     "format",
-    "ethereum",
+    "vapory",
     "encoding",
     "decoding"
   ],
@@ -53,9 +54,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ethjs/ethjs-util/issues"
+    "url": "https://github.com/vapjs/vapjs-util/issues"
   },
-  "homepage": "https://github.com/ethjs/ethjs-util#readme",
+  "homepage": "https://github.com/vapjs/vapjs-util#readme",
   "babel": {
     "plugins": [
       [

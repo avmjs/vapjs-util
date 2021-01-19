@@ -3,11 +3,11 @@
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
-		define("ethUtil", [], factory);
+		define("vapUtil", [], factory);
 	else if(typeof exports === 'object')
-		exports["ethUtil"] = factory();
+		exports["vapUtil"] = factory();
 	else
-		root["ethUtil"] = factory();
+		root["vapUtil"] = factory();
 })(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -2408,4 +2408,4 @@ module.exports = g;
 /******/ ])
 });
 ;
-//# sourceMappingURL=ethjs-util.js.map
+//# sourceMappingURL=vapjs-util.js.map

@@ -1,7 +1,7 @@
 const assert = require('assert');
 const utf8 = require('utf8');
 
-// methods taken from ethereumjs-util
+// methods taken from vaporyjs-util
 
 /**
  * Returns a `Boolean` on whether or not the a `String` starts with '0x'

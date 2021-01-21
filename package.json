@@ -1,7 +1,7 @@
 {
   "name": "vapjs-util",
   "namespace": "vapjs",
-  "version": "0.0.3",
+  "version": "0.0.3-a",
   "description": "A simple set of Vapory JS utilties.",
   "main": "./src/index.js",
   "scripts": {
@@ -41,9 +41,8 @@
   },
   "homepage": "https://github.com/vapjs/vapjs-util#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.1.2",
     "babel-eslint": "7.1.0",
+    "chai": "^3.5.0",
     "coveralls": "2.11.9",
     "eslint": "2.10.1",
     "eslint-config-airbnb": "9.0.1",
@@ -53,11 +52,12 @@
     "eslint-plugin-react": "5.1.1",
     "eventsource-polyfill": "0.9.6",
     "lint-staged": "1.0.1",
+    "mocha": "^3.1.2",
     "pre-commit": "1.1.3"
   },
   "dependencies": {
     "assert": "1.4.1",
-    "vapjs-filter": "0.0.1",
+    "vapjs-filter": "0.0.2",
     "utf8": "^2.1.2"
   },
   "babel": {
